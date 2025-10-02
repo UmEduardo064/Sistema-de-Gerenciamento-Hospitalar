@@ -48,7 +48,7 @@ GROUP BY Quarto;
 
 
 
-SELECT Medicamento.Nome, SUM(Pescrição.Quantidade) AS Total
+SELECT Medicamento.Nome, SUM(Pescrição.Quantidade)
 FROM Prescrição
 JOIN Medicamentos ON Prescrição.MedicamentoID = Medicamento.ID
 GROUP BY Medicamento.Nome;
