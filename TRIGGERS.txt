@@ -1,0 +1,7 @@
+TRIGGERS:
+
+1. Estoque(Medicamentos) -> Um aviso será emitido quando o estoque se encontrar abaixo de um valor determinado
+
+2. Data_nascimento(paciente) -> O sistema não permite que um paciente informe sua data de nascimento como sendo uma data futura
+
+3. Data_hora(consulta) -> #
